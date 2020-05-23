@@ -1,0 +1,528 @@
+body,html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* --NAVBAR-- */
+@media only screen and (max-width: 500px) {
+  .title h1 {
+    font-size: 65px;
+  }
+  }
+  .title .icon {
+    color: #FFFFFF;
+    font-size: 50px;
+  }
+  .main_nav {
+    position: fixed;
+    top: 0px;
+    height: 80px;
+    z-index: 999;
+    width: 100%;
+    padding-top: 10px;
+    background: none;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0;
+    top: -100px;
+    padding-bottom: 6px;
+  }
+  
+  @media only screen and (max-width: 766px) {
+  .main_nav {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  }
+  .open-nav {
+    max-height: 400px !important;
+  }
+  .sticky {
+    background-color: #ffffff;
+    opacity: 1;
+    top: 0px;
+  }
+  nav {
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+ 
+  @media only screen and (max-width: 766px) {
+  nav {
+    width: 100%;
+  }
+  }
+  nav ul {
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 766px) {
+  nav ul {
+    padding-top: 0px;
+    margin-bottom: 22px;
+    text-align: center;
+    width: 100%;
+  }
+  }
+  nav ul li {
+    display: inline-block;
+    margin-left: 35px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: black;
+  }
+
+  
+  
+  @media only screen and (max-width: 766px) {
+  nav ul li {
+    width: 100%;
+    padding: 7px 0;
+    margin: 0;
+  }
+  nav ul li:first-child {
+    margin-top: 50px;
+  }
+  }
+  nav ul a {
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  nav ul a:hover {
+    color: #CFCFCF;
+  }
+  .mobile-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    right: 22px;
+    top: 0;
+    width: 30px;
+  }
+/* ----------------------- */
+   
+/*-- -------jumbotron -----------  */
+.jumbotron{
+    display: flex;
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url(Pict/back2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:470px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+/*---------------------------------------*/
+
+
+/* -------------------- Konten Jumbotron ------------------*/
+.kontenjum {
+    position: absolute;
+    height: 200px;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.kontenjum h4{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+.kontenjum p{
+    font-size: 20px;
+    margin-top: 0px;
+    color: white;
+}
+/*------------------------------------------------------------*/
+
+
+/*-------------------- Sekilas Aboutme ---------------------*/
+.sekilasaboutme{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  height: 200x;
+  padding-top: 70px;
+  background-color: transparent;
+  margin:0px 15px 0px 15px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.sekilasaboutme hr{
+  border-top: solid 2px;
+  width: 300px;
+  margin-bottom: 35px;
+  color: #333;
+  text-align: center;
+}
+.sekilasaboutme img{
+  border-radius: 60%;
+  width: 250px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sekilasaboutme p{
+  margin-top: 20px;
+  line-height: 1.5; font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+  text-align: center;
+}
+.sekilasaboutme h3{
+  color: black;
+}
+/*-------------------------------------------------*/
+  
+
+/*------------------ Places ---------------------*/
+.places{
+  margin-top: 30px ;
+  padding-top: 30px;
+  background: #ebeff2;
+  background-image: url(Pict/place.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 950px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:whitesmoke;
+  padding-bottom: 0px;
+}
+  
+
+/*----------------- Grid Places -------------*/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:700);
+
+* {
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+  text-align:center;
+}
+
+.grid {
+  width: 100%;
+  display: table;
+  border-collapse:separate;
+  border-spacing:15px;
+  height: 100px;
+}
+
+.grid-row {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin:0 0 -15px 0;
+}
+
+.item-head1{
+  display: table-cell;
+  padding: 2%;
+  width: 40%;
+}
+
+.item-head1 h2 {
+  color:#222;
+  text-align: center;
+}
+
+.item-head1 p{
+  color: #222;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.item{
+  display: table-cell;
+  padding: 2%;
+  width: 100%;
+  margin: 10px;
+  background-color: transparent;
+}
+
+.item h2{
+  color: #333;
+  margin-bottom: 0%;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 480px) {
+ .grid-row {
+    display: block;
+    width: fit-content;
+    margin:0;
+ }
+  
+.item {
+    display: block;
+    width: 100%;
+    margin: 0 0 5px 0;
+  }  
+}
+/*-------------------------------------------*/
+
+
+
+/* -- FlipCard -- */
+.flipCard {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  margin: 20px auto;
+  border-radius: 10px;
+
+}
+.flipCard .card.flipped {
+  transform:rotatey(-180deg);
+  -ms-transform:rotatey(-180deg); /* IE 9 */
+  -moz-transform:rotatey(-180deg); /* Firefox */
+  -webkit-transform:rotatey(-180deg); /* Safari and Chrome */
+  -o-transform:rotatey(-180deg); /* Opera */
+}
+.flipCard .card {
+  width: 100%;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 0.5s;
+  -moz-transform-style: preserve-3d;
+  -moz-transition: 0.5s;
+  -ms-transform-style: preserve-3d;
+  -ms-transition: 0.5s;
+  -o-transform-style: preserve-3d;
+  -o-transition: 0.5s;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+}
+.flipCard .card .side {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 2;
+  backface-visibility: hidden;  /* W3C */
+  -webkit-backface-visibility: hidden; /* Safari & Chrome */
+  -moz-backface-visibility: hidden; /* Firefox */
+  -ms-backface-visibility: hidden; /* Internet Explorer */
+  -o-backface-visibility: hidden; /* Opera */
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  overflow: auto;
+}
+.flipCard .card .back {
+  transform:rotatey(-180deg);
+  -ms-transform:rotatey(-180deg); /* IE 9 */
+  -moz-transform:rotatey(-180deg); /* Firefox */
+  -webkit-transform:rotatey(-180deg); /* Safari and Chrome */
+  -o-transform:rotatey(-180deg); /* Opera */
+}
+
+.flipCard .card .front {
+  font-family: Georgia;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(192,192,192,0.7);
+  border-radius: 10px;
+  height: 350px ;
+  color: #222;
+}
+.flipCard .card .back {
+  text-align: center;
+  color: black;
+  font-family: Georgia;
+  border-radius: 10px;
+  height: 350px ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(192,192,192,0.9);
+  padding-top: 10px;
+}
+
+/*-------------*/
+
+
+
+/*----------------- Grid MyStudy ------------------*/
+* {
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+  text-align:center;
+  color:#333;
+}
+
+.itemStudy {
+  display: table-cell;
+  padding: 2%;
+  width: 100%;
+  margin: 10px;
+  background-color: rgba(192,192,192,0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  color: #333;
+  border-radius: 10px;
+}
+
+.itemStudy img{
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+
+ .grid-row {
+    display: block;
+    width: fit-content;
+    margin:0;
+ }
+  
+ .itemStudy {
+  display: block;
+	width: 100%;
+  margin: 0 0 5px 0;
+  border-radius: 10px;
+ }  
+ 
+}
+
+.mystudy{
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+/*--------------------------------------------*/
+
+
+
+/*-------------- Jumbotron MyTeam ---------------*/
+.myteam{
+  display: flex;
+  width: 100%;
+  background-attachment: fixed;
+  background-image: url(Pict/team3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height:400px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+/*-----------------------------*/
+  
+
+/*-------------- Konten jumbotron "myteam" --------------*/
+.kontenmyteam {
+  position: relative;
+  height: 200px;
+  top:40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  padding-top: 50px;
+}
+
+.kontenmyteam h3{
+  font-size: 60px;
+  color: white;
+  margin-bottom: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.kontenmyteam p{
+  font-size: 25px;
+  margin-top: 0px;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*------------------------------------*/
+
+
+/* ----------- Grid OurTeam --------------- */
+* {
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+  text-align:center;
+  color:#333;
+}
+
+.ourteam {
+  display: table-cell;
+  padding: 2%;
+  width: 100%;
+  margin: 10px;
+  background-color: rgba(192,192,192,0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  color: #333;
+  border-radius: 10px;
+  margin-bottom: 50px;
+
+}
+
+.ourteam img{
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+
+ .grid-row {
+    display: block;
+    width: fit-content;
+    margin:0;
+ }
+  
+ .ourteam {
+  display: block;
+	width: 100%;
+  margin: 0 0 5px 0;
+  border-radius: 10px;
+ }  
+ 
+}
+/*-------------------------------*/
+
+
+/*-- Footer --*/
+footer {
+  height: 200px;
+  padding: 20px 0 20px 0;
+  background: #2980b9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+footer p {
+	color: #FFFFFF;
+	margin: 20px 0 0 0;
+}
+
+.inspiration a{
+  color: white;
+  text-decoration: none;
+}
+.socialIcons {
+	font-size: 34px;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+ /*---------*/
+ 
