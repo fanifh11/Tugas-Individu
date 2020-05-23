@@ -39,3 +39,8 @@ Didalamnya terdapat 2 matkul dan beberapa tugas
         1. Visual Studio 2019
         
         2. Ms Access (berformat .mdb kalau format .accdb harus mengninstall AccessDatabaseEngine
+        
+        * edit sesuai dengan lokasi directory aplikasi Anda
+     ```c
+         String connParam = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=[ directory aplikasi Anda ]\db\db.mdb;Persist Security Info=False";
+     ```
