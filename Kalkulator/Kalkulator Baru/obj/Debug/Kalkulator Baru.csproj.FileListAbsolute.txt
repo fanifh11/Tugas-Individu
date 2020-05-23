@@ -1,0 +1,18 @@
+C:\Users\ASUS\source\repos\Kalkulator Baru\Kalkulator Baru\bin\Debug\Kalkulator Baru.exe.config
+C:\Users\ASUS\source\repos\Kalkulator Baru\Kalkulator Baru\bin\Debug\Kalkulator Baru.exe
+C:\Users\ASUS\source\repos\Kalkulator Baru\Kalkulator Baru\bin\Debug\Kalkulator Baru.pdb
+C:\Users\ASUS\source\repos\Kalkulator Baru\Kalkulator Baru\obj\Debug\Kalkulator Baru.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\Kalkulator Baru\Kalkulator Baru\obj\Debug\Kalkulator_Baru.Properties.Resources.resources
+C:\Users\ASUS\source\repos\Kalkulator Baru\Kalkulator Baru\obj\Debug\Kalkulator Baru.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\Kalkulator Baru\Kalkulator Baru\obj\Debug\Kalkulator Baru.exe
+C:\Users\ASUS\source\repos\Kalkulator Baru\Kalkulator Baru\obj\Debug\Kalkulator Baru.pdb
+C:\Users\ASUS\source\repos\Kalkulator Baru\Kalkulator Baru\obj\Debug\Kalkulator_Baru.Kalkulator.resources
+D:\Folder Kuliah\Semester 4\Pemograman Visual\Kalkulator Baru\Kalkulator Baru\bin\Debug\Kalkulator Baru.exe.config
+D:\Folder Kuliah\Semester 4\Pemograman Visual\Kalkulator Baru\Kalkulator Baru\bin\Debug\Kalkulator Baru.exe
+D:\Folder Kuliah\Semester 4\Pemograman Visual\Kalkulator Baru\Kalkulator Baru\bin\Debug\Kalkulator Baru.pdb
+D:\Folder Kuliah\Semester 4\Pemograman Visual\Kalkulator Baru\Kalkulator Baru\obj\Debug\Kalkulator Baru.csprojAssemblyReference.cache
+D:\Folder Kuliah\Semester 4\Pemograman Visual\Kalkulator Baru\Kalkulator Baru\obj\Debug\Kalkulator_Baru.Kalkulator.resources
+D:\Folder Kuliah\Semester 4\Pemograman Visual\Kalkulator Baru\Kalkulator Baru\obj\Debug\Kalkulator_Baru.Properties.Resources.resources
+D:\Folder Kuliah\Semester 4\Pemograman Visual\Kalkulator Baru\Kalkulator Baru\obj\Debug\Kalkulator Baru.csproj.GenerateResource.cache
+D:\Folder Kuliah\Semester 4\Pemograman Visual\Kalkulator Baru\Kalkulator Baru\obj\Debug\Kalkulator Baru.exe
+D:\Folder Kuliah\Semester 4\Pemograman Visual\Kalkulator Baru\Kalkulator Baru\obj\Debug\Kalkulator Baru.pdb
