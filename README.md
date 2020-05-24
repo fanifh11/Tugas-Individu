@@ -46,4 +46,4 @@ Didalamnya terdapat 2 matkul dan beberapa tugas
          String connParam = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=[ directory aplikasi Anda ]\db\db.mdb;Persist Security Info=False";
      ```
      
-     * Note : Apbila error downlaod repo lewat browser Mozilla Firefox maka sebaikknya lewat Google Chrome terima kasih
+     * Note : Apbila error download repo lewat browser Mozilla Firefox maka sebaikknya lewat Google Chrome terima kasih
