@@ -41,7 +41,9 @@ Didalamnya terdapat 2 matkul dan beberapa tugas
         
         2. Ms Access (berformat .mdb kalau format .accdb harus mengninstall AccessDatabaseEngine
         -> Didalam project saya berfomat .accdb jadi harus install AccessDatabaseEngine .64-bit terlebih dahulu
-        dan sudah saya sediakan didalam repository 
+        dan dapat didownload di link berikut
+        
+        https://drive.google.com/open?id=1QDp_9tC2nIA3NMQwCk4ntBdPdO2VIw-y
         
         * edit sesuai dengan lokasi directory aplikasi Anda
      ```c
