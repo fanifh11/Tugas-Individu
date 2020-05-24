@@ -40,6 +40,7 @@ Didalamnya terdapat 2 matkul dan beberapa tugas
         1. Visual Studio 2019
         
         2. Ms Access (berformat .mdb kalau format .accdb harus mengninstall AccessDatabaseEngine
+        -> Didalam project saya berfomat .accdb jadi harus install AccessDatabaseEngine .64-bit terlebih dahulu
         
         * edit sesuai dengan lokasi directory aplikasi Anda
      ```c
