@@ -33,7 +33,8 @@ Didalamnya terdapat 2 matkul dan beberapa tugas
   
   * Form filling ekspedisi
   
-  * Tugas opsional : - CRUD sederhana form member JKT48 
+  * Tugas opsional : 
+  1. CRUD sederhana form member JKT48 
   
     -> Aplikasi yang dibutuhkan 
       
@@ -45,9 +46,24 @@ Didalamnya terdapat 2 matkul dan beberapa tugas
         
         https://drive.google.com/open?id=1QDp_9tC2nIA3NMQwCk4ntBdPdO2VIw-y
         
-        * edit sesuai dengan lokasi directory aplikasi Anda
+        * edit database sesuai dengan lokasi directory aplikasi Anda
      ```c
          String connParam = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=[ directory aplikasi Anda ]\db\db.mdb;Persist Security Info=False";
      ```
+     
+  2. Form Dashboard WPF sederhana JKT48
+  
+  -> Aplikasi yang dibutuhkan 
+      
+        1. Visual Studio 2019
+        
+        2. Ms Access (berformat .mdb kalau format .accdb harus mengninstall AccessDatabaseEngine
+        -> Didalam project saya berfomat .mbd jadi tidak harus menginstall AccessDatabaseEngine
+       
+        * edit database sesuai dengan lokasi directory aplikasi Anda pada menu App.config
+     ```c
+         String connParam = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=[ directory aplikasi Anda ]\db\db.mdb;Persist Security Info=False";
+     ```
+      
      
      * Note : Apbila error download repo lewat browser Mozilla Firefox maka sebaikknya lewat Google Chrome terima kasih
